@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Personal Website" />
+	<meta name="author" content="Jesse Ardonne | Design by andreasviklund.com" />
+	<link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Enriqueta' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="in-response.css" title="Title" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.6" />
+	<title>Jesse Ardonne | Projects</title>
+</head>
+
+<body class="light">
+<div id="layout">
+ 
+	<div class="row">
+		<div class="col c12">
+			<h1 class="aligncenter"><a href="http://JesseArdonne.com">Jesse Ardonne</a></h1>
+			<p class="aligncenter slogan"><a href="http://www.ece.lsu.edu/">PhD Electrical Engineering Student</a></p>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col c12 aligncenter navmenu">
+			<p>
+               <a href="Home.html" class="current">About Me</a>
+               <a href="projects.html"><u>Projects</u></a>
+               <a href="halo.html">Halo Modding</a>
+               <a href="music.html">Music</a>
+               <a href="contact.html">Contact Me</a>
+               <a href="resume.html">Resume</a>
+               </p>
+		</div>
+	</div>
+ 
+	<div class="row">
+		<div class="col c12">
+			<h3>Current: Untitled Arcade Side Scroller </h3>
+			<p>I began using Unity in 2013 and started playing with 2D games for simplicity.  They have since released multiple updates including ones
+			that simplify the 2D process.  Currently I'm using only place-holder crude paint art while developing the core gameplay.  I hope to have a web demo up soon.  My goal
+			in this project is to not only make a complete retro arcade side scrolling shooter game with high replayability, but also to gain experience in efficient game design 
+			focusing on code reusability.</p>
+			<div class="thumbnails">
+				<a href="http://i.imgur.com/wBMkrEK.png"><img src="images/Unity1.png" alt="" /></a>
+				<a href="http://i.imgur.com/pDEuTjk.png"><img src="images/Unity2.png" alt="" /></a>
+				<a href="http://i.imgur.com/4CCTerC.png"><img src="images/Unity3.png" alt="" /></a>
+				<a href="http://i.imgur.com/E3axnN7.png"><img src="images/Unity4.png" alt="" /></a>
+				<a href="http://i.imgur.com/dESWlrI.png"><img src="images/Unity5.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+
+    <div class="row">
+        <div class="col c12">
+            <h3>MIPS Simulator (Closed Source) </h3>
+            <p>
+                For my graduate Computer Architecture class, I completed a solo project to program a MIPS simulator in the language of our choice (I 
+                chose C).  The input takes a text file filled with 32 bit binary string that are MIPS machine instructions and accurately processes the instructions
+                cycle by cycle through an 8-stage pipeline with port forwarding.  After each cycle was executed, a snapshot was printed with various data such as program 
+                counter, pipeline status, stalled instructions, register values, memory, and branches taken.  This project was the foundation to three years of Computer Architecture 
+                research using other simulators such as MacSim and GPGPU.
+                 
+            </p>
+            <!--  Grab images of simulator
+            <div class="thumbnails">
+                <a href="http://i.imgur.com/"><img src="images/MIPS1.png" alt="" /></a>
+                <a href="http://i.imgur.com/"><img src="images/MIPS2.png" alt="" /></a>
+                <a href="http://i.imgur.com/"><img src="images/MIPS3.png" alt="" /></a>
+                <a href="http://i.imgur.com/"><img src="images/MIPS4.png" alt="" /></a>
+                <a href="http://i.imgur.com/"><img src="images/MIPS5.png" alt="" /></a>
+            </div>
+            -->
+        </div>
+    </div>
+
+
+
+	<div class="row">
+		<div class="col c12">
+			<h3>Wii60 Project</h3>
+			<p>From September 2011 to April 2012, I embarked on a two semester project.  The original intention was to play the Xbox 360 with a Wiimote, 
+            but it quickly turned into a much larger project. I built a circuit that centered around an <a href="http://www.mbed.org">mBed</a> that directly 
+            interfaced with the 2 joysticks, 2 triggers, and 16 buttons of a <a href="http://forums.xbox-scene.com/index.php?showtopic=618909">CG Wireless</a> 
+            Xbox 360 controller.  My final result included the Wiimote working and a keyboard and mouse along with the inputs for a Playstation 2 controller 
+            and Nintendo 64 controller.  The purpose of the project soon came to be giving the ability for any input to an Xbox 360 controller. I hope to 
+            expand the project in the near future. <a href="http://imgur.com/a/lguSp">Album here</a>.</p>
+			<div class="thumbnails">
+				<a href="http://imgur.com/a/lguSp">
+    				<img src="images/Wii601.jpg" alt="" />
+    				<img src="images/Wii602.jpg" alt="" />
+    				<img src="images/Wii603.jpg" alt="" />
+    				<img src="images/Wii604.jpg" alt="" />
+    				<img src="images/Wii605.jpg" alt="" />
+				</a>
+    		</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col c12">
+			<h3>Hog Runner</h3>
+			<p>Hog Runner is a game I programmed for my <a href="http://www2.southeastern.edu/Academics/Faculty/pmcdowell/html/cmps_455_555.html">CMPS 455</a> class at 
+            <a href="http://www.selu.edu">Southeastern Louisiana University</a> as an undergraduate.  It uses the <a href="http://alleg.sourceforge.net/">Allegro</a> 
+            library with <a href="http://www.tilemap.co.uk/mappy.php">Mappy.  </a>The graphics come from a variety of free-to-use sprites spanning multiple sites.  
+            The sounds and background textures were directly ripped from Halo: Combat Evolved.  While it could use a few tweaks, I prefer to leave it as is and treat 
+            it as a learning example.  <a href="https://dl.dropboxusercontent.com/u/38178889/Hog%20Runner.rar">Download</a> here.</p>
+			<div class="thumbnails">
+				<a href="http://i.imgur.com/1na5FWv.png"><img src="images/HRshot1.png" alt="" /></a>
+				<a href="http://i.imgur.com/VcinTjR.png"><img src="images/HRshot2.png" alt="" /></a>
+				<a href="http://i.imgur.com/zcenXxz.png"><img src="images/HRshot3.png" alt="" /></a>
+				<a href="http://i.imgur.com/DuX8urA.png"><img src="images/HRshot4.png" alt="" /></a>
+				<a href="http://i.imgur.com/FTcIX4P.png"><img src="images/HRshot5.png" alt="" /></a>
+		    </div>
+	    </div>
+     </div>
+ 
+    <div class="row">
+        <div class="col c12">
+            <h3>Pioneer 3AT Remote Control via Internet </h3>
+            <p>
+                As an undergraduate, I worked as a research assistant on a four month project where a Pioneer 3AT 
+                was used as a base and had a computer and IP camera attached.  A joystick was used on a remote 
+                computer on the interet and could log into the system and send controls while recieving video signal.
+                A video can be seen <a href="https://youtu.be/ngOWTiGuRnc">here</a></p>.
+            <div class="thumbnails">
+                <a href="http://i.imgur.com/pKTzsSJ.png"><img src="http://i.imgur.com/pKTzsSJ.png" alt="" /></a>
+                <a href="http://i.imgur.com/LvISsbr.png"><img src="http://i.imgur.com/LvISsbr.png" alt="" /></a>
+                <a href="http://i.imgur.com/pCg9mQ4.png"><img src="http://i.imgur.com/pCg9mQ4.png" alt="" /></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col c12">
+            <h3>Halo XBE Modder </h3>
+            <p>
+                This is an application I wrote in C++/CLI for modifying .xbe files for Halo mods.  This
+                application let's you change the title, maps directory, and version number.  The benefit
+                of these changes let's you compile multiple Halo 1 mappacks into a single directory and
+                doesn't suffer cache errors when switching between different mappacks.  Source code
+                available <a href="https://github.com/nintendo9713/Halo-XBE-Modder">here</a>.
+            </p>
+
+            <div class="thumbnails">
+                <a href="http://i.imgur.com/WFlL2kn.png"><img src="images/XBE1.png" alt="http://i.imgur.com/WFlL2kn.png" /></a>
+                <a href="http://i.imgur.com/j5MBYf6.png"><img src="images/XBE2.png" alt="http://i.imgur.com/j5MBYf6.png" /></a>
+                <a href="http://i.imgur.com/AtU0VIu.png"><img src="images/XBE3.png" alt="http://i.imgur.com/AtU0VIu.png" /></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col c12">
+            <h3>RFID Access for Handicapped </h3>
+            <p>
+                For my undergraduate Computer Architecture class, I completed a group project using a mBed 
+                microcontroller to create a prototype of a lift that activates via RFID.  A sabertooth dual 
+                motor driver was used to build the mock-up "Lego-sized" prototype.  During the demo, various 
+                RFID cards were scanned and only the ones verified by a local static database caused the 
+                prototype to lift and lower.
+            </p>
+            <div class="thumbnails">
+                <a href="http://i.imgur.com/N9qjEd6.png"><img src="http://i.imgur.com/N9qjEd6.png" alt="" /></a>
+                <a href="http://i.imgur.com/nQ0CEX6.png"><img src="http://i.imgur.com/nQ0CEX6.png" alt="" /></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+		<div class="col c12">
+			<h3>Rainbowduino Night Light</h3>
+			<p>After coming across <a href="http://www.instructables.com/id/Low-resolution-display-done-right/">Low Resolution Display Done Right</a> on 
+            <a href="http://instructables.com">Instructables.com</a>, I decided to make one on my own for my girlfriend.  Using the 'painter' sketch and a heart silhouette, I
+            was able to obtain the following result.</p>
+			<div class="thumbnails">
+				<a href="http://i.imgur.com/OcSEzXc.png"><img src="http://i.imgur.com/OcSEzXc.png" alt="" /></a>
+				<a href="http://i.imgur.com/xwlCwiF.png"><img src="http://i.imgur.com/xwlCwiF.png" alt="" /></a>
+				<a href="http://i.imgur.com/7f4fI3y.png"><img src="http://i.imgur.com/7f4fI3y.png" alt="" /></a>
+				<a href="http://i.imgur.com/l9GwJzP.png"><img src="http://i.imgur.com/l9GwJzP.png" alt="" /></a>
+				<a href="http://i.imgur.com/S7v7p0S.png"><img src="http://i.imgur.com/S7v7p0S.png" alt="" /></a>
+		</div>
+	</div>
+ </div>
+
+
+
+
+ 
+
+	<div class="row">
+		<div class="col c12 aligncenter">
+			<p><span class="larger">&copy; 2015 <a href="https://www.facebook.com/jesse.ardonne">Jesse Ardonne</a></span><br />
+			<a href="http://andreasviklund.com/dt_portfolio/in-response/">Template design</a> by <a href="http://andreasviklund.com/">Andreas Viklund</a><br />
+		</p>
+		</div>
+	</div>
+ </div>
+</body>
+</html>
